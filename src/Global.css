@@ -1,0 +1,93 @@
+/* .real-time-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+   */
+
+   *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   }
+   body{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(240, 239, 244);
+    /* border: 2px solid red; */
+    height: 90vh;
+    background-color: rgb(2, 37, 2);
+   }
+
+   .error {
+    color: red;
+    font-size: 11px;
+  }
+  .success {
+    font-size: 20px;
+    color: rgb(75, 181, 67);
+  }
+
+  form{
+    /* border: 2px solid red; */
+    width: 400px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px blue;
+  }
+  input{
+    width: 300px;
+    padding-left: 10px;
+    height: 40px;
+  }
+  button{
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+  }
+  button:hover{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+  }
+  h1{
+    color: blue;
+  }
